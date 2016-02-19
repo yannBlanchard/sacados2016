@@ -10,12 +10,12 @@ public class Generator {
     public int t;
     public ArrayList<Instance> instances;
 
-    public Generator(int nbinst, int op, int ow, int t, ArrayList<Instance> instances) {
+    public Generator(int nbinst, int op, int ow, int t) {
         this.nbinst = nbinst;
         this.op = op;
         this.ow = ow;
         this.t = t;
-        this.instances = instances;
+        this.instances = new ArrayList<Instance>();
         for(int i=0; i<nbinst;i++)
         {
             this.instances.add(MakeInstance(t,op,ow));
