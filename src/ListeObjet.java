@@ -10,6 +10,10 @@ public class ListeObjet {
         this.listObjets = listObjets;
     }
 
+    public ListeObjet(){
+
+    }
+
     private ArrayList<Objet> listObjets = new ArrayList<Objet>();
 
     public void retire(int i){
