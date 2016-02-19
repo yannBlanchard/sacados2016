@@ -28,7 +28,6 @@ public class Generator {
         int poids;
         int util;
         ListeObjet x;
-        ArrayList<Objet> tableau;
 
         x=new ListeObjet();
         for(int i = 0; i<taille; i++) {
